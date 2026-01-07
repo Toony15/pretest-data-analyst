@@ -44,6 +44,7 @@ Sebutkan minimal tiga penyebab utama dashboard menjadi lambat.
 - Query terlalu berat,Terlalu banyak JOIN, data besar, dan agregasi kompleks.
 - Membaca langsung dari database operasional
 - Tidak ada caching,Dashboard selalu menghitung ulang data setiap dibuka.
+  
 B. USE CASE (STUDI KASUS)
 Use Case 1: Data Belum Tersedia
 
