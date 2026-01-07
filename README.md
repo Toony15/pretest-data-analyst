@@ -15,7 +15,7 @@ Apa perbedaan antara data source dan data warehouse?
 Data Source: Sumber data mentah/operasional, Gudang data yang sudah dibersihkan dan terintegrasi dari berbagai sumber, dioptimalkan untuk analisis dan pelaporan.
 
 Mengapa dashboard atau laporan sebaiknya tidak langsung membaca data dari data source?
-Risiko Mengganggu Sistem Operasional,Data Tidak Konsisten & Belum Siap Analisis
+- Risiko Mengganggu Sistem Operasional,Data Tidak Konsisten & Belum Siap Analisis
 
 3.Error Analysis & Debugging Pertanyaan:
 Apa perbedaan antara error yang disebabkan oleh perubahan schema dan error karena query yang salah? 
@@ -27,6 +27,7 @@ Bagaimana cara membedakan kedua jenis error tersebut dalam praktik sehari-hari?
 
 4.ETL Concept Pertanyaan:
 Jelaskan definisi dari ETL (Extract, Transform, Load) process.
+
 -ETL adalah proses untuk mengambil data dari sumber, mengolah/membersihkan data, lalu menyimpannya ke data warehouse agar siap digunakan untuk analisis dan laporan.
 
 Sebutkan secara singkat fungsi dari masing-masing tahap ETL.
