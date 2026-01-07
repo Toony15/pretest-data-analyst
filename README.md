@@ -12,7 +12,7 @@ SUM(DISTINCT amount).
 
 2.Data Architecture Understanding Pertanyaan:
 Apa perbedaan antara data source dan data warehouse?
-Data Source: Sumber data mentah/operasional, Gudang data yang sudah dibersihkan dan terintegrasi dari berbagai sumber, dioptimalkan untuk analisis dan pelaporan.
+- Data Source: Sumber data mentah/operasional, Gudang data yang sudah dibersihkan dan terintegrasi dari berbagai sumber, dioptimalkan untuk analisis dan pelaporan.
 
 Mengapa dashboard atau laporan sebaiknya tidak langsung membaca data dari data source?
 - Risiko Mengganggu Sistem Operasional,Data Tidak Konsisten & Belum Siap Analisis
