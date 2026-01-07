@@ -65,6 +65,7 @@ Kondisi: Terdapat data transaksi di database dan di dashboard, namun nilai yang 
 Pertanyaan:
 
 Apa kemungkinan penyebab terjadinya perbedaan tersebut?
+
 -kemungkinan paling besar ada pada masalah data duplikat ataupun data di dalam database itu adalah data raw dan Perbedaan logika query.
 
 Langkah apa yang harus dilakukan untuk memverifikasi dan menyelesaikan masalah ini?
@@ -80,11 +81,13 @@ Kondisi: User ingin memfilter data berdasarkan kondisi tertentu, namun hasil yan
 Pertanyaan:
 
 Apa langkah-langkah yang perlu dilakukan untuk menganalisis masalah ini?
+
 - Klarifikasi Ekspektasi User,pastikan Filter apa yang dipilih user dan Data apa yang diharapkan muncul.
 - Cek Data di Database,pastikan data dengan kondisi filter tersebut memang ada.
 - Periksa Logika Filter di Query Bandingkan Filter di dashboard dan Kondisi WHERE di query.
   
 Bagaimana cara memastikan filter bekerja sesuai dengan logika data?
+
 - Samakan definisi filter,Definisi bisnis dan logika query harus sama.
 - Gunakan data yang sudah dibersihkan,hindari filter langsung di data raw.
 - Tes setiap filter satu per satu,pastikan tiap filter bekerja sebelum digabung
@@ -106,10 +109,13 @@ Kondisi: Query tidak menghasilkan error, namun hasil perhitungan menunjukkan ang
 Pertanyaan:
 
 Apa langkah-langkah validasi yang perlu dilakukan?
+
 - Cek Data Duplikat
 - Periksa Logika Query
 - Validasi dengan Data Sampel
+- 
 Bagaimana cara memastikan bahwa hasil perhitungan sudah benar?
+
 -Gunakan satu sumber data yang sama,Dashboard dan query manual harus dari tabel yang sama
 - Samakan definisi metric,Pastikan rumus bisnis jelas
 - Lakukan cross-check
