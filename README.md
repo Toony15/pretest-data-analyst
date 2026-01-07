@@ -20,6 +20,7 @@ Mengapa dashboard atau laporan sebaiknya tidak langsung membaca data dari data s
 
 3.Error Analysis & Debugging Pertanyaan:
 Apa perbedaan antara error yang disebabkan oleh perubahan schema dan error karena query yang salah? 
+
 -Error karena Perubahan Schema,Terjadi karena struktur tabel berubah, tetapi query masih memakai struktur lama.
 -Error karena Query yang SalahTerjadi karena penulisan atau logika query memang keliru.
 
