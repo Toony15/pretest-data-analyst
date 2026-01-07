@@ -55,6 +55,7 @@ Pertanyaan:
 
 Apa langkah pertama yang harus dilakukan?
 - lakukan koordinasi dengan tim Data Engineer atau Backend Developer,Memastikan apakah data tersebut memang sudah ada di Data Source (database produksi) atau benar-benar belum dikumpulkan sama sekali dan melakukan request sample data ke tim terkait
+  
 Use Case 2: Perbedaan Nilai Database dan Dashboard
 
 Kondisi: Terdapat data transaksi di database dan di dashboard, namun nilai yang ditampilkan di dashboard berbeda dengan nilai di database.
