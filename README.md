@@ -45,10 +45,7 @@ Sebutkan minimal tiga penyebab utama dashboard menjadi lambat.
 - Membaca langsung dari database operasional
 - Tidak ada caching,Dashboard selalu menghitung ulang data setiap dibuka.
   
-B. USE CASE (STUDI KASUS)
-Use Case 1: Data Belum Tersedia
 
-Kondisi: Anda diminta membuat visualisasi dashboard, namun data yang dibutuhkan belum tersedia atau belum dimigrasikan ke data warehouse.
 
 Pertanyaan:
 B. USE CASE (STUDI KASUS)
